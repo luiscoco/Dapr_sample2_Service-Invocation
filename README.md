@@ -1,6 +1,12 @@
 # dapr: Service Invocation
 
+The source code is available in this github repo: https://github.com/luiscoco/Dapr_sample2_Service-Invocation
+
+This example is explained in these two youtube videos:
+
 https://www.youtube.com/watch?v=NBDQ8vp0E_M&list=PLbFaOt0VQ7S9txKOwJQIb258Wq99dgISL&index=2
+
+https://www.youtube.com/watch?v=JpDOUhM5e1w&list=PLbFaOt0VQ7S9txKOwJQIb258Wq99dgISL&index=3
 
 ## 1. Run VSCode and install dapr extension
 
