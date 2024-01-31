@@ -125,3 +125,65 @@ In the **launchSettings.json** we confirm the http port is different to the port
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/f515a557-a432-42c3-a5dc-4c936d58e4bc)
 
+We now modify the frontend middleware 
+
+**program.cs**
+
+```
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
+using frontend.Data;
+using Dapr.Client;
+using System.Text.Json;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// JsonSerializer options
+var options = new JsonSerializerOptions
+{
+    PropertyNameCaseInsensitive = true,
+    PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+};
+
+// Add services to the container.
+builder.Services.AddRazorPages();
+builder.Services.AddServerSideBlazor();
+builder.Services.AddDaprClient(builder =>
+{
+    builder.UseJsonSerializationOptions(options);
+});
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+}
+
+app.UseStaticFiles();
+app.UseRouting();
+
+app.MapBlazorHub();
+app.MapFallbackToPage("/_Host");
+
+app.Run();
+```
+
+We also modify the **Imports.razor** file we add a new library **@using Dapr.Client**
+
+```razor 
+@using System.Net.Http
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.AspNetCore.Components.Web.Virtualization
+@using Microsoft.JSInterop
+@using frontend
+@using frontend.Shared
+@using Dapr.Client
+```
+
+We 
