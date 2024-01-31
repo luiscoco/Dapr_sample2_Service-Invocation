@@ -117,3 +117,7 @@ dotnet add package Dapr.AspNetCore --version 1.12.0
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/97e9bb54-7cfb-4429-a9b8-94eb66c933f8)
 
+We navigate into the frontend folder and load the dependency
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/32a7da60-3a75-4065-8733-e8fff473fc0e)
+
