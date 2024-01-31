@@ -14,3 +14,12 @@ We click on the dapr button in the left hand side panel to see the extension opt
 
 ## 2. Create a .NET8 WebAPI 
 
+We open a Terminal Window and run this command:
+
+```
+dotnet new webapi -o backend --no-https
+```
+
+We can verify the projec folders structure
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/79dbc9b8-655c-41ee-9e55-54c07200711b)
