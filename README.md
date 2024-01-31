@@ -286,4 +286,10 @@ We can access to the backend with the dapr button in VSCode to invoke the weathe
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/25ec349f-585a-4eb2-9ee6-05378ad82bb4)
 
+We can access to the frontend application and check the backend service call
 
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/48998715-a090-486e-81ad-8fcd7717da0e)
+
+We can also access to the backend application
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/dc7878d3-9720-4b4d-9233-9dcbb07b44da)
