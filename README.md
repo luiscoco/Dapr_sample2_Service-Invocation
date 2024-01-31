@@ -47,6 +47,14 @@ dapr run --app-id DaprServerServiceInvocation --app-port 5144 --dapr-http-port 3
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/035b1ad2-a471-446e-8405-c83c225f314e)
 
+We can open a new Terminal Window and list the running dapr apps
+
+```
+dapr list
+```
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/ca9bf2f6-9882-418c-b9f5-01d62fd9b7bd)
+
 
 
 
