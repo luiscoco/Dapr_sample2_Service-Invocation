@@ -65,6 +65,10 @@ dapr dashboard
 
 We access the dapr dashboard
 
-![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/7cedd7f5-7f1e-4ed1-9c9d-9fe72cd47c54)
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/7f5a9d38-a145-4473-876e-f261e480023e)
+
+We click on the running application name and we can see the two tabs: summary and actors
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/0cac9635-ab6c-415e-b014-9367917aea6a)
 
 
