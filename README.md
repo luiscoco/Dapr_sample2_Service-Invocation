@@ -83,4 +83,12 @@ We obtain the output in the terminal window
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/772fec0d-b676-43fa-93f2-da3a3281bf02)
 
+We open a new Terminal Window and run the following command to Invoke a Rest Method with dapr
+
+```
+Invoke-RestMethod -Uri 'http://localhost:3500/v1.0/invoke/DaprServerServiceInvocation/method/weatherforecast'
+```
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/0b0002a6-5a6d-40f1-b327-d46a4131034b)
+
 
