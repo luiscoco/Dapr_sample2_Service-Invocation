@@ -46,7 +46,7 @@ dapr run --app-id DaprServerServiceInvocation --app-port 5144 --dapr-http-port 3
 ```
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/035b1ad2-a471-446e-8405-c83c225f314e)
-
+A
 We can open a new Terminal Window and list the running dapr apps
 
 ```
@@ -71,4 +71,7 @@ We click on the running application name and we can see the two tabs: summary an
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/0cac9635-ab6c-415e-b014-9367917aea6a)
 
+We click on the **dapr button**, in the left hand side menu, and we right-click on the application name and select the menu option "**Invoke (GET) Application Method**"
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/7e17df85-b8d1-48dd-a5ba-b10fe783ed25)
 
