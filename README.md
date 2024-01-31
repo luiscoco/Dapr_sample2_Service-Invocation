@@ -129,7 +129,7 @@ We now modify the frontend middleware
 
 **program.cs**
 
-```
+```csharp
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using frontend.Data;
