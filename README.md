@@ -55,6 +55,16 @@ dapr list
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/ca9bf2f6-9882-418c-b9f5-01d62fd9b7bd)
 
+We can also run the dapr dashboard
 
+```
+dapr dashboard
+```
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/964996fd-6c11-41f9-b5db-2ce80cdbf45b)
+
+We access the dapr dashboard
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/7cedd7f5-7f1e-4ed1-9c9d-9fe72cd47c54)
 
 
