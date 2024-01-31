@@ -267,3 +267,12 @@ dapr list
 ```
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/237fcafa-0202-46c3-b56b-6c2e63da1a3d)
+
+We can also run the dapr dashboard to see both applications details
+
+```
+dapr dashboard -p 0
+```
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/ee9ed17b-2059-49fa-b3b1-b533d531229f)
+
