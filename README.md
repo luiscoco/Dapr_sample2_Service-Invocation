@@ -101,3 +101,19 @@ dotnet new blazorserver -o frontend --no-https
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/ec9f7c66-9e09-418f-9a8d-9158a43de11b)
 
+We load the dependency "**Dapr.AspNetCore**"
+
+We navigate to Nuget URL: https://www.nuget.org/p
+
+We search for the dependency 
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/0a655172-e54f-4554-8c2c-484d70f98d12)
+
+We copy the installation command
+
+```
+dotnet add package Dapr.AspNetCore --version 1.12.0
+```
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/97e9bb54-7cfb-4429-a9b8-94eb66c933f8)
+
