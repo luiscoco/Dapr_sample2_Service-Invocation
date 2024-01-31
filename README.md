@@ -238,7 +238,7 @@ else
 }
 ```
 
-We build the frontend application
+We **build the frontend** application
 
 ```
 cd frontend
@@ -247,3 +247,23 @@ dotnet build
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/f7bbec04-b550-4fc7-a78b-12c91cddb0e9)
 
+We open two Terminal Windows, in one of them we run with dapr the frontend and in the other Terminal Window we run the backend application
+
+```
+cd backend
+dapr run --app-id backend --app-port 5144 dotnet run
+```
+
+```
+cd frontend
+dapr run --app-id frontend --app-port 5168 dotnet run
+```
+
+
+We open another Terminal Window and we verify both dapr applications are running
+
+```
+dapr list
+```
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/237fcafa-0202-46c3-b56b-6c2e63da1a3d)
