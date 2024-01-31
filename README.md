@@ -276,3 +276,14 @@ dapr dashboard -p 0
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/ee9ed17b-2059-49fa-b3b1-b533d531229f)
 
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/22fe8906-e0f2-4980-ad54-76e3e43e0e93)
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/5bd9be73-368c-47c2-9eff-65376fb1d940)
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/3bd52911-66e6-493a-b9fe-c9d9a31aac2f)
+
+We can access to the backend with the dapr button in VSCode to invoke the weatherforecast method
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/25ec349f-585a-4eb2-9ee6-05378ad82bb4)
+
+
