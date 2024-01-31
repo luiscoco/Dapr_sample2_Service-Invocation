@@ -121,3 +121,7 @@ We navigate into the frontend folder and load the dependency
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/32a7da60-3a75-4065-8733-e8fff473fc0e)
 
+In the **launchSettings.json** we confirm the http port is different to the port used by the backend application
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/f515a557-a432-42c3-a5dc-4c936d58e4bc)
+
