@@ -23,3 +23,19 @@ dotnet new webapi -o backend --no-https
 We can verify the projec folders structure
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/79dbc9b8-655c-41ee-9e55-54c07200711b)
+
+We run the WebAPI
+
+```
+cd backend
+dotnet run
+```
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/579744ca-5174-46be-a8db-cf754022cb71)
+
+We access to the application endpoint
+
+http://localhost:5144/swagger/index.html
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/ef83292b-6c80-4eaf-a5c8-c18d9d57669d)
+
