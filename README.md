@@ -238,3 +238,12 @@ else
 }
 ```
 
+We build the frontend application
+
+```
+cd frontend
+dotnet build
+```
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/f7bbec04-b550-4fc7-a78b-12c91cddb0e9)
+
