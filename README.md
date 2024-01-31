@@ -12,7 +12,7 @@ We click on the dapr button in the left hand side panel to see the extension opt
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/2b2abdb6-2861-425a-bb37-d374340e2522)
 
-## 2. Create a .NET8 WebAPI 
+## 2. Create a .NET8 WebAPI (backend)
 
 We open a Terminal Window and run this command:
 
@@ -91,4 +91,13 @@ Invoke-RestMethod -Uri 'http://localhost:3500/v1.0/invoke/DaprServerServiceInvoc
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/0b0002a6-5a6d-40f1-b327-d46a4131034b)
 
+## 3. Create Blazor app (frontend)
+
+We run this command to create the frontend blazor app
+
+```
+dotnet new blazorserver -o frontend --no-https
+```
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/ec9f7c66-9e09-418f-9a8d-9158a43de11b)
 
