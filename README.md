@@ -75,3 +75,12 @@ We click on the **dapr button**, in the left hand side menu, and we right-click 
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/7e17df85-b8d1-48dd-a5ba-b10fe783ed25)
 
+We type the method name to invoke in the textbox
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/c459772f-08d0-4898-80e9-dbf355efdb5e)
+
+We obtain the output in the terminal window
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/772fec0d-b676-43fa-93f2-da3a3281bf02)
+
+
