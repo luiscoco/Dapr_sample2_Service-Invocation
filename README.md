@@ -39,3 +39,14 @@ http://localhost:5144/swagger/index.html
 
 ![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/ef83292b-6c80-4eaf-a5c8-c18d9d57669d)
 
+We can also run the application with dapr
+
+```
+dapr run --app-id DaprServerServiceInvocation --app-port 5144 --dapr-http-port 3500 dotnet run
+```
+
+![image](https://github.com/luiscoco/Dapr_sample2_Service-Invocation/assets/32194879/035b1ad2-a471-446e-8405-c83c225f314e)
+
+
+
+
